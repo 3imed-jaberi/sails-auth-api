@@ -15,9 +15,11 @@
     "sails-mongo": "^1.0.1"
   },
   "devDependencies": {
-    "@sailshq/eslint": "^4.19.3"
+    "@sailshq/eslint": "^4.19.3",
+    "nodemon": "^1.19.0"
   },
   "scripts": {
+    "dev": "nodemon app.js",
     "start": "NODE_ENV=production node app.js",
     "test": "npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
