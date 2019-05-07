@@ -1,9 +1,21 @@
 {
   "name": "sails-auth-api",
-  "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "Sails JS RESTful authentication API via JWT .. ",
+  "keywords": [
+    "sails-js",
+    "sails",
+    "api",
+    "growth-rest-api",
+    "generate",
+    "easy",
+    "loved",
+    "quick-dev",
+    "javascript",
+    "nodejs",
+    "good-alternative",
+    "jwt-easy-way"
+  ],
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
     "bcrypt": "^3.0.6",
@@ -29,11 +41,15 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/sails-auth-api.git"
+    "url": "git+https://github.com/3imed-jaberi/sails-auth-api.git"
   },
-  "author": "anonymous node/sails user",
-  "license": "",
+  "author": "imed jaberi",
+  "license": "MIT",
   "engines": {
     "node": "^10.15"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/sails-auth-api/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/sails-auth-api#readme"
 }
