@@ -9,6 +9,12 @@
  */
 
 module.exports.routes = {
+ // User .. 
+ 'POST /login' : 'UserController.login',
 
+ 'POST /signup' : 'UserController.signup',
+
+ // Private User Routes .. 
+ 'GET /profile' : 'UserController.profile',
 
 };
