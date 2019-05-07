@@ -1,5 +1,6 @@
 const Joi = require('joi');
 
+// login controller method .. 
 const login = async (req,res) => {
 
   try {
@@ -21,8 +22,8 @@ const login = async (req,res) => {
           return res.badRequest({err:' unauthorized - password not found ! '});
         }
         
-        const token = JWTService.generate({ user : user.id } , '1 day' ) ;
-      
+        const token = await JWTService.generate({ user : user.id }) ;
+       
       return res.ok({token}) ;
   
   } catch (err) {
@@ -34,6 +35,7 @@ const login = async (req,res) => {
  
 };
 
+// register controller method .. 
 const signup = async (req,res) => {
 
   try {
@@ -58,9 +60,10 @@ const signup = async (req,res) => {
  
 };
 
+// profile controller method ( private - auth - ) .. 
 const profile = (req,res) => {
   try {
-    return res.ok( { msg : 'Profile Private route is work !' } );
+    return res.ok( { msg : 'Profile Route is Works ! => Welcome to your home private routes .. ' } );
   } catch (err) {
     return res.serverError(err) ;  
   }
