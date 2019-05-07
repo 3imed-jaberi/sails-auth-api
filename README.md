@@ -1,9 +1,32 @@
-# sails-auth-api
+# SAILS-AUTH-API
+---
+### This is a Sails JS RESTful authentication API via JWT .. 
 
-a [Sails v1](https://sailsjs.com) application
+      ![sails-logo](https://sailsjs.com/images/hero_squid.png) 
 
+## What technologies that i used ?
+ - MongoDB - as a database, light and convenient for application purpose.
+ - Node Js - as server side application representing APIs.
+ - [Sails JS v1.1.0](https://sailsjs.com) - used as a framework on node to enable creating routes and APIs in an easy way.
+ - Json Web Token - JSON-based open standard (RFC 7519) for creating access tokens that assert some number of claims.
+ - BcryptJs - a password hashing function.
+ 
+## What is the pattern and the archeticture that i used ?
+ - REST API is a software architectural style that defines a set of constraints to be used for creating Web services
+ - The MVC Design Pattern is one of the oldest architectural pattern for web applications.
 
-### Links
+## Setup prerequists
+ - you have to install NodeJS as it's the service and also to use its package manager npm.
+ - you have to install MongoDb locally or access to MongoDB in Cloud.
+ 
+## How to run the application
+ - clone or download files in some place.
+ - open CMD or Terminal in the root folder you just cloned.
+ - write this command npm install to install dependencies.
+ - start mongodb, if you are locally.
+ - then write ```npm run dev``` to run the api and can test with postman or integrate with any front-end framework.
+
+### More Links About Sails JS 
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
 + [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
@@ -11,16 +34,9 @@ a [Sails v1](https://sailsjs.com) application
 + [Community support options](https://sailsjs.com/support)
 + [Professional / enterprise options](https://sailsjs.com/enterprise)
 
+## What's next ?
+ - create a complete app with sails js.
 
-### Version info
-
-This app was originally generated on Mon May 06 2019 19:46:44 GMT+0200 (GMT+02:00) using Sails v1.1.0.
-
-<!-- Internally, Sails used [`sails-generate@1.16.8`](https://github.com/balderdashy/sails-generate/tree/v1.16.8/lib/core-generators/new). -->
-
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
-
+#### License
+---
+[MIT](https://choosealicense.com/licenses/mit/) 
