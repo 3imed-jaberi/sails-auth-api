@@ -1,8 +1,6 @@
 # SAILS-AUTH-API
 ---
-### This is a Sails JS RESTful authentication API via JWT .. 
-
-      ![sails-logo](https://sailsjs.com/images/hero_squid.png) 
+### This is a [ Sails JS ](https://sailsjs.com/images/hero_squid.png) RESTful authentication API via JWT .. 
 
 ## What technologies that i used ?
  - MongoDB - as a database, light and convenient for application purpose.
