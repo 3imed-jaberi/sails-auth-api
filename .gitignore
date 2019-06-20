@@ -130,5 +130,5 @@ lib-cov
 *.out
 *.pid
 
-# cached lock dep .. 
+# ignore lock dep .. 
 package-lock.json
